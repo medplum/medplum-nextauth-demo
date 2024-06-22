@@ -1,5 +1,5 @@
 
-> medplum-nextauth-demo@3.1.8 build
+> medplum-nextauth-demo@3.1.9 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -8,7 +8,7 @@ This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-  ▲ Next.js 14.2.3
+  ▲ Next.js 14.2.4
 
    Creating an optimized production build ...
  ✓ Compiled successfully
@@ -25,16 +25,16 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ƒ /                                    1.9 kB          228 kB
-├ ○ /_not-found                          877 B            88 kB
+┌ ƒ /                                    1.9 kB          229 kB
+├ ○ /_not-found                          877 B          88.1 kB
 └ ƒ /api/auth/[...nextauth]              0 B                0 B
-+ First Load JS shared by all            87.1 kB
++ First Load JS shared by all            87.2 kB
   ├ chunks/1dd3208c-b8b265ce9a7153c3.js  53.6 kB
-  ├ chunks/286-e78f575d5e8919e4.js       31.6 kB
+  ├ chunks/286-0efd3dd4964258a9.js       31.7 kB
   └ other shared chunks (total)          1.88 kB
 
 
-ƒ Middleware                             48.3 kB
+ƒ Middleware                             48.4 kB
 
 ○  (Static)   prerendered as static content
 ƒ  (Dynamic)  server-rendered on demand
