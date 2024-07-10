@@ -1,5 +1,5 @@
 
-> medplum-nextauth-demo@3.1.11 build
+> medplum-nextauth-demo@3.2.0 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -25,7 +25,7 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ƒ /                                    1.9 kB          229 kB
+┌ ƒ /                                    1.9 kB          230 kB
 ├ ○ /_not-found                          877 B          88.1 kB
 └ ƒ /api/auth/[...nextauth]              0 B                0 B
 + First Load JS shared by all            87.2 kB
