@@ -1,14 +1,17 @@
 
-> medplum-nextauth-demo@3.2.17 build
+> medplum-nextauth-demo@3.2.18 build
 > next build
 
+ ⚠ Invalid next.config.mjs options detected: 
+ ⚠     Unrecognized key(s) in object: 'swcMinify'
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
 Attention: Next.js now collects completely anonymous telemetry regarding usage.
 This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-  ▲ Next.js 14.2.14
+  ▲ Next.js 15.0.1
 
    Creating an optimized production build ...
  ✓ Compiled successfully
@@ -25,16 +28,16 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ƒ /                                    1.91 kB         232 kB
-├ ○ /_not-found                          876 B          88.1 kB
-└ ƒ /api/auth/[...nextauth]              0 B                0 B
-+ First Load JS shared by all            87.2 kB
-  ├ chunks/1dd3208c-d694d82e3bb20f76.js  53.6 kB
-  ├ chunks/528-7affffe7abeca705.js       31.7 kB
-  └ other shared chunks (total)          1.88 kB
+┌ ƒ /                                    1.91 kB         243 kB
+├ ○ /_not-found                          901 B           100 kB
+└ ƒ /api/auth/[...nextauth]              137 B          99.3 kB
++ First Load JS shared by all            99.1 kB
+  ├ chunks/765-aa32e795828d97ac.js       44.7 kB
+  ├ chunks/87c73c54-306d963e46e8da65.js  52.6 kB
+  └ other shared chunks (total)          1.84 kB
 
 
-ƒ Middleware                             48 kB
+ƒ Middleware                             56.2 kB
 
 ○  (Static)   prerendered as static content
 ƒ  (Dynamic)  server-rendered on demand
