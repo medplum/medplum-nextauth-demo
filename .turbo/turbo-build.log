@@ -1,5 +1,5 @@
 
-> medplum-nextauth-demo@3.2.20 build
+> medplum-nextauth-demo@3.2.21 build
 > next build
 
  ⚠ Invalid next.config.mjs options detected: 
@@ -11,13 +11,13 @@ This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-   ▲ Next.js 15.0.2
+   ▲ Next.js 15.0.3
 
    Creating an optimized production build ...
  ✓ Compiled successfully
    Linting and checking validity of types ...
 
- ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
+ ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/app/building-your-application/configuring/eslint#migrating-existing-config
    Collecting page data ...
    Generating static pages (0/4) ...
    Generating static pages (1/4) 
@@ -28,12 +28,12 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ƒ /                                    1.91 kB         244 kB
+┌ ƒ /                                    1.9 kB          244 kB
 ├ ○ /_not-found                          901 B           101 kB
-└ ƒ /api/auth/[...nextauth]              137 B          99.9 kB
-+ First Load JS shared by all            99.7 kB
-  ├ chunks/765-2f45681998b3070a.js       45.3 kB
-  ├ chunks/87c73c54-e15f0a98d0ab89e6.js  52.6 kB
+└ ƒ /api/auth/[...nextauth]              137 B           100 kB
++ First Load JS shared by all            100 kB
+  ├ chunks/855-4b5f8e7db7b3b80b.js       45.7 kB
+  ├ chunks/87c73c54-aa8cf5bf030899cd.js  52.5 kB
   └ other shared chunks (total)          1.84 kB
 
 
