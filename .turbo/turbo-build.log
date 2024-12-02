@@ -1,5 +1,5 @@
 
-> medplum-nextauth-demo@3.2.23 build
+> medplum-nextauth-demo@3.2.24 build
 > next build
 
  ⚠ Invalid next.config.mjs options detected: 
@@ -28,7 +28,7 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ƒ /                                    1.92 kB         247 kB
+┌ ƒ /                                    1.91 kB         248 kB
 ├ ○ /_not-found                          901 B           101 kB
 └ ƒ /api/auth/[...nextauth]              137 B           100 kB
 + First Load JS shared by all            100 kB
